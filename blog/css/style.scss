@@ -36,10 +36,10 @@ $on-laptop:        70%;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "color"
+        "_base.scss",
+        "_layout.scss",
+        "_syntax-highlighting.scss",
+        "_color.scss"
 ;
 
 
