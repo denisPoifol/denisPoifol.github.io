@@ -164,7 +164,7 @@ The public wrapper is the class were going to use once all is setup, its job is 
 
 Theses classes and their initialisation methods are summed up in the below figure:
 
-![](TypeErasure-a4f939e9-1269-4f48-b895-0e9937875c22.png)
+![Type Erasure pattern's boiler plate layers](/Assets/TypeErasure.png)
 
 Type Erasure pattern's boiler plate layers
 
