@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Type Erasure and Protocol with associated type"
+subhead: "How to make the best of protocol with associatedTypes using type erasure"
 date:   2019-02-23 10:35:32 +0100
 categories: ["swift"]
 ---
