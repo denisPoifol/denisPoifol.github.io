@@ -507,7 +507,7 @@ pre {
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
-  @include media-query($on-laptop) {
+  @include media-query($on-palm) {
     font-size: 36px;
   }
 }
