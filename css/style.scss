@@ -491,7 +491,7 @@ pre {
   font-family: "PT Sans";
   font-weight: 900;
   @include media-query($on-palm) {
-    font-size: 36px;
+    font-size: 22px;
   }
 }
 .post-content {
@@ -499,11 +499,17 @@ pre {
   padding-bottom: 3em !important;
   p {
     font-size: 1.5rem;
+    @include media-query($on-palm) {
+      font-size: 1rem;
+    }
   }
   h2 {
     font-size: 32px;
     @include media-query($on-laptop) {
       font-size: 28px;
+    }
+    @include media-query($on-palm) {
+      font-size: 16px;
     }
   }
   h3 {
@@ -511,11 +517,17 @@ pre {
     @include media-query($on-laptop) {
       font-size: 22px;
     }
+    @include media-query($on-palm) {
+      font-size: 14px;
+    }
   }
   h4 {
     font-size: 20px;
     @include media-query($on-laptop) {
       font-size: 18px;
+    }
+    @include media-query($on-palm) {
+      font-size: 13px;
     }
   }
 }
