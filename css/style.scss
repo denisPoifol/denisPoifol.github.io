@@ -310,12 +310,18 @@ pre {
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
+  @include media-query($on-palm) {
+    font-size: 22px;
+  }
 }
 .site-description {
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 2px;
   text-indent: 6px;
   font-family: 'Josefin Sans';
+  @include media-query($on-palm) {
+    font-size: 14px;
+  }
 }
 .exclamationMark {
   padding-left: 2em;
